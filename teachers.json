@@ -1,0 +1,177 @@
+{
+  "updated_at": "2023-11-20",
+  "semesterStart": "2023-11-20",
+  "semesterEnd": "2024-02-20",
+  "teachers": [
+    {
+      "id": "T1",
+      "full_name": "Иванов Иван Иванович",
+      "contact": "i.ivanov@itmo.ru",
+      "subjects": [
+        ["ML-101", 16, 7],
+        ["DS-202", 12, 3]
+      ],
+      "unavailable": {
+        "dates": ["2023-12-25", "2024-01-01"],
+        "weekdays": [6],
+        "time_ranges": ["08:00-09:30"]
+      },
+      "preferences": {
+        "schedule": {
+          "max_lectures_per_day": 2,
+          "max_practice_per_day": 2,
+          "min_break_minutes": 45,
+          "preferred_time": ["10:00-13:00", "14:00-17:00"]
+        },
+        "classrooms": {
+          "lecture": {
+            "must_have": [],
+            "nice_to_have": [],
+            "blacklist": [],
+            "fixed_room": "#106 (209 seats)"
+          },
+          "practice": {
+            "must_have": [],
+            "fixed_room": "#203 (56 seats)"
+          }
+        }
+      }
+    },
+    {
+      "id": "T2",
+      "full_name": "Петрова Светлана Михайловна",
+      "contact": "s.petrova@itmo.ru",
+      "subjects": [
+        ["AI-303", 10, 5],
+        ["STAT-404", 8, 4]
+      ],
+      "unavailable": {
+        "dates": ["2023-12-27", "2024-01-05"],
+        "weekdays": [],
+        "time_ranges": ["18:00-21:00"]
+      },
+      "preferences": {
+        "schedule": {
+          "max_lectures_per_day": 1,
+          "max_practice_per_day": 1,
+          "min_break_minutes": 30,
+          "preferred_time": ["13:00-15:00"]
+        },
+        "classrooms": {
+          "lecture": {
+            "must_have": [],
+            "nice_to_have": [],
+            "blacklist": [],
+            "fixed_room": "#108 (209 seats)"
+          },
+          "practice": {
+            "must_have": [],
+            "fixed_room": "#201 (56 seats)"
+          }
+        }
+      }
+    },
+    {
+      "id": "T3",
+      "full_name": "Сидоров Алексей Владимирович",
+      "contact": "a.sidorov@itmo.ru",
+      "subjects": [
+        ["DB-505", 14, 6],
+        ["WEB-606", 10, 5]
+      ],
+      "unavailable": {
+        "dates": ["2023-12-20", "2024-01-10"],
+        "weekdays": [5],
+        "time_ranges": ["15:00-17:00"]
+      },
+      "preferences": {
+        "schedule": {
+          "max_lectures_per_day": 3,
+          "max_practice_per_day": 2,
+          "min_break_minutes": 60,
+          "preferred_time": ["10:00-12:00", "15:00-17:00"]
+        },
+        "classrooms": {
+          "lecture": {
+            "must_have": [],
+            "nice_to_have": [],
+            "blacklist": ["#106 (209 seats)"],
+            "fixed_room": null
+          },
+          "practice": {
+            "must_have": [],
+            "fixed_room": "#301 (56 seats)"
+          }
+        }
+      }
+    },
+    {
+      "id": "T4",
+      "full_name": "Кузнецова Елена Сергеевна",
+      "contact": "e.kuznetsova@itmo.ru",
+      "subjects": [
+        ["ALG-707", 12, 4],
+        ["OS-808", 8, 4]
+      ],
+      "unavailable": {
+        "dates": ["2023-12-15", "2024-01-15"],
+        "weekdays": [2],
+        "time_ranges": ["08:00-10:00"]
+      },
+      "preferences": {
+        "schedule": {
+          "max_lectures_per_day": 2,
+          "max_practice_per_day": 1,
+          "min_break_minutes": 45,
+          "preferred_time": ["13:00-15:00", "16:00-18:00"]
+        },
+        "classrooms": {
+          "lecture": {
+            "must_have": [],
+            "nice_to_have": [],
+            "blacklist": [],
+            "fixed_room": "#303 (56 seats)"
+          },
+          "practice": {
+            "must_have": [],
+            "fixed_room": "#305 (56 seats)"
+          }
+        }
+      }
+    },
+    {
+      "id": "T5",
+      "full_name": "Васильев Дмитрий Николаевич",
+      "contact": "d.vasiliev@itmo.ru",
+      "subjects": [
+        ["NET-909", 10, 5],
+        ["SEC-1010", 6, 3]
+      ],
+      "unavailable": {
+        "dates": ["2023-12-30", "2024-01-07"],
+        "weekdays": [3],
+        "time_ranges": ["13:00-15:00"]
+      },
+      "preferences": {
+        "schedule": {
+          "max_lectures_per_day": 1,
+          "max_practice_per_day": 2,
+          "min_break_minutes": 30,
+          "preferred_time": ["08:00-10:00", "15:00-17:00"]
+        },
+        "classrooms": {
+          "lecture": {
+            "must_have": [],
+            "nice_to_have": [],
+            "blacklist": ["#108 (209 seats)"],
+            "fixed_room": "#307 (56 seats)"
+          },
+          "practice": {
+            "must_have": [],
+            "fixed_room": null
+          }
+        }
+      }
+    }
+  ]
+}
